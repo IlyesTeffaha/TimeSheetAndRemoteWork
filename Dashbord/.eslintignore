@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+.yarn/
+
+# production
+build/
+public/
+
+# ide
+.vscode/
+
+# external docs
+
+
+src/@fake-db/db/*

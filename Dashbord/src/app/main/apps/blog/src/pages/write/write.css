@@ -1,0 +1,93 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 1px;
+ 
+  
+}
+
+.catcontainer{
+  
+  height: auto;
+  margin: 20px;
+}
+.catlabel{
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(160, 156, 156);
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.selectcat{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(180, 180, 197);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.selectcat:hover{
+width: 206px;
+height: 45px;
+ 
+}
+
+
+
+.writeIcon {font-size: larger;
+  color: rgb(125, 125, 125);
+  cursor: pointer;
+  margin: 20px;
+}
+
+.writeIcon:hover {font-size:xx-large;
+  color: rgb(96, 96, 96);
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput:focus {
+  outline: none;
+}
+
+.writeText {
+  font-size: 20px;
+  height: 100vh;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}

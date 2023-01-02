@@ -1,0 +1,93 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {margin-top: 10px;
+ 
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 19%;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight:500;
+
+}
+
+.headerTitleLg {
+  
+  margin-top: 30px;
+text-transform: uppercase;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 20%;
+  font-size: 120px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    object-fit:cover;
+}
+
+/* /////////////////////////////// */
+
+
+.app {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+}
+
+
+.search {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #444;
+  font-weight: 300;
+}
+
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #444;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
+}
